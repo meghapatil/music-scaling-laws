@@ -1,0 +1,10 @@
+{
+  "vocab_size": 37,
+  "total_tokens": 25595372,
+  "train_tokens": 25078454,
+  "val_tokens": 261363,
+  "test_tokens": 255555,
+  "train_pct": 97.9804239610192,
+  "val_pct": 1.021133820598505,
+  "test_pct": 0.998442218382292
+}

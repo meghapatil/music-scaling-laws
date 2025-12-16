@@ -1,0 +1,16 @@
+{
+  "model_type": "lstm",
+  "model_size": "large",
+  "n_layer": 3,
+  "n_embd": 256,
+  "hidden_size": 1024,
+  "vocab_size": 37,
+  "block_size": 64,
+  "dropout": 0.1,
+  "batch_size": 32,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "grad_clip": 1.0
+}

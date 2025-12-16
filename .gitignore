@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Data files (too large for GitHub)
+data/abc_notation/
+data/raw_midi/
+data/processed/*.npy
+*.midi
+*.mid
+
+# Model checkpoints (too large)
+results/scaling_study/*/best_model.pt
+results/scaling_study/*/checkpoint_*.pt
+
+# Logs
+*.log
+training_*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Keep structure but not large files
+!data/processed/.gitkeep
+!results/.gitkeep

@@ -1,0 +1,77 @@
+{
+  "experiment_name": "music_scaling_laws",
+  "dataset": {
+    "name": "lakh_midi_matched",
+    "total_tokens": 25078454,
+    "train_tokens": 1000000,
+    "val_tokens": 10000,
+    "vocab_size": 37,
+    "sequence_length": 64
+  },
+  "training": {
+    "num_epochs": 1,
+    "optimizer": "adam",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "grad_clip": 1.0,
+    "seed": 42
+  },
+  "models": [
+    {
+      "name": "transformer_tiny",
+      "config": "configs/transformer_tiny.json",
+      "estimated_params": 800000
+    },
+    {
+      "name": "transformer_small",
+      "config": "configs/transformer_small.json",
+      "estimated_params": 5000000
+    },
+    {
+      "name": "transformer_medium",
+      "config": "configs/transformer_medium.json",
+      "estimated_params": 20000000
+    },
+    {
+      "name": "transformer_large",
+      "config": "configs/transformer_large.json",
+      "estimated_params": 50000000
+    },
+    {
+      "name": "transformer_xl",
+      "config": "configs/transformer_xl.json",
+      "estimated_params": 100000000
+    },
+    {
+      "name": "lstm_tiny",
+      "config": "configs/lstm_tiny.json",
+      "estimated_params": 1000000
+    },
+    {
+      "name": "lstm_small",
+      "config": "configs/lstm_small.json",
+      "estimated_params": 5000000
+    },
+    {
+      "name": "lstm_medium",
+      "config": "configs/lstm_medium.json",
+      "estimated_params": 20000000
+    },
+    {
+      "name": "lstm_large",
+      "config": "configs/lstm_large.json",
+      "estimated_params": 50000000
+    }
+  ],
+  "evaluation": {
+    "metrics": ["validation_loss", "perplexity"],
+    "sample_generation": {
+      "num_samples": 5,
+      "max_length": 512,
+      "temperature": 0.8,
+      "top_k": 40
+    }
+  }
+}

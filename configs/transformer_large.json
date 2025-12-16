@@ -1,0 +1,17 @@
+{
+  "model_type": "transformer",
+  "model_size": "large",
+  "n_layer": 12,
+  "n_head": 12,
+  "n_embd": 384,
+  "vocab_size": 37,
+  "block_size": 64,
+  "dropout": 0.1,
+  "bias": true,
+  "batch_size": 32,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "grad_clip": 1.0
+}

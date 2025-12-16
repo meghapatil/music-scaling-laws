@@ -1,0 +1,15 @@
+{
+  "model_type": "lstm",
+  "model_size": "small",
+  "num_params": 4240421,
+  "train_losses": [
+    0.8086856599120805
+  ],
+  "val_losses": [
+    0.8331332665223342
+  ],
+  "epoch_times": [
+    3236.425663948059
+  ],
+  "best_val_loss": 0.8331332665223342
+}

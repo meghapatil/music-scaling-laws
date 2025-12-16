@@ -1,0 +1,9 @@
+{
+  "num_samples": 3,
+  "valid_samples": 0,
+  "validity_rate": 0.0,
+  "model_path": "results/scaling_study/transformer_tiny/best_model.pt",
+  "temperature": 0.8,
+  "model_type": "transformer",
+  "model_size": "tiny"
+}

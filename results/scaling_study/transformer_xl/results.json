@@ -1,0 +1,15 @@
+{
+  "model_type": "transformer",
+  "model_size": "xl",
+  "num_params": 50417152,
+  "train_losses": [
+    0.7261957452807497
+  ],
+  "val_losses": [
+    0.8804490816166052
+  ],
+  "epoch_times": [
+    41343.09491896629
+  ],
+  "best_val_loss": 0.8804490816166052
+}

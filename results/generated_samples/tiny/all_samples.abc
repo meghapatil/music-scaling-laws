@@ -1,0 +1,149 @@
+X:1
+T:A     g 1
+M:3/4
+L:1/8
+K:D
+M:1/8
+K74
+K:C z z z z z z z z z z z C z |
+C z z z z z z z D z z z z z z z |
+z z z z z z F z z z z z z D z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z D z z D z z z z z |
+z z z z z z z z z z z 
+
+X:2
+T:A     g 2
+M:3/4
+L:1/8
+K:C
+M:edeccc684
+K84
+K:C
+z z z B z z B z z z z z z z z |
+z z z B z z z B z z z B z B z z |
+z z z z z B z z z z z z z z z z |
+B z z z z z z z z z z z z B z z |
+z z z z z z z z z B B B z z z z |
+z z z z B z 
+
+X:3
+T:A     g 3
+M:2/4
+L:1/8
+K:F
+M:87f34
+M:4
+K31/8
+K:C
+z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z 
+
+X:4
+T:A     g 4
+M:2/4
+L:1/8
+K:Bb
+M:9c1ae14
+K72e7a1/8
+K:C
+z z z z z z z z z z z z z z z |
+b z z e z z z z z b E z b z b z |
+b z b z z b z z z z b z z z z d |
+z B z z z G e z z z z z e z E z |
+z z z z z z z z e z z z z z z z |
+z z z z 
+
+X:5
+T:A     g 5
+M:2/4
+L:1/8
+K:A
+M:c9e04
+K77c4
+T:7bb8ca9b8c3c9fcae4
+M:4/8
+K:C
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+A z z z z z E z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z A A z z z A z z z
+
+X:6
+T:A     g 6
+M:4/4
+L:1/8
+K:C
+K00ce4
+K:C c072f81/8
+K:C z z z z z z z z d f |
+c z z z z z z z z z z z z z z z |
+z z z z z z d z z z z z z z z c |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z
+
+X:7
+T:A     g 7
+M:6/8
+L:1/8
+K:G
+M:4
+M:c4
+K3fa7c52ac23f71/8
+K:C
+z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z
+
+X:8
+T:A     g 8
+M:3/4
+L:1/8
+K:G
+M:4
+T:9621bcc544cefbf45ffc485da7
+M:4/4
+L:1/8
+K:C z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z
+
+X:9
+T:A     g 9
+M:4/4
+L:1/8
+K:Bb
+M:14
+Kf0f059f4
+K:C# z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z 
+
+X:10
+T:A     g 10
+M:4/4
+L:1/8
+K:A
+M:e99231270f90c58aa4
+M:4
+L:1/8
+K:C
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z c z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z z |
+z z z z z z z z z z z z z z z

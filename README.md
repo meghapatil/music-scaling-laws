@@ -5,10 +5,6 @@
 **Institution:** NYU Tandon School of Engineering  
 **Date:** December 15, 2025
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Overview
 
 This project investigates whether neural scaling laws transfer from natural language to symbolic music by training 9 models (5 transformers, 4 LSTMs) ranging from 800K to 50M parameters on ABC notation from the Lakh MIDI dataset.
@@ -37,8 +33,7 @@ music-scaling-project/
 │       ├── test.npy            # 90K test tokens
 │       └── vocab.json          # 37-token vocabulary
 ├── src/
-│   ├── convert_midi.py         # MIDI → ABC conversion
-│   ├── convert_midi_safe.py    # Robust conversion with error handling
+│   ├── convert_midi_safe.py    # MIDI → ABC conversion
 │   ├── tokenizer.py            # Character-level tokenization
 │   ├── data_utils.py           # Data loading utilities
 │   ├── run_preprocessing.py    # Complete preprocessing pipeline
@@ -143,8 +138,6 @@ python src/training/train.py \
     --output_dir results/scaling_study
 ```
 
-**Training time:** ~30 hours total on Apple Silicon M-series CPU
-
 ### 4. Evaluate & Analyze
 ```bash
 # Collect results and create scaling plots
@@ -167,11 +160,6 @@ python src/evaluation/generate_samples.py \
     --temperature 0.8 \
     --output_dir results/generated_samples/small
 ```
-
-**Listen to samples:**
-1. Open generated `.abc` files
-2. Visit https://abcjs.net/abcjs-editor.html
-3. Paste ABC text to hear the music
 
 ## Model Configurations
 
@@ -254,42 +242,7 @@ python src/evaluation/generate_samples.py \
 - Compare alternative tokenizations (REMI, piano roll)
 - Human evaluation of generated music
 
-## Citation
-```bibtex
-@misc{patil2025musicscaling,
-  title={Music Scaling Laws: Training Language Models on Symbolic Music},
-  author={Patil, Megha Anant},
-  year={2025},
-  institution={New York University Tandon School of Engineering},
-  note={Negative results: Scaling laws require adequate data-compute balance}
-}
-```
-
-## References
-
-1. Kaplan et al. (2020). "Scaling Laws for Neural Language Models" - arXiv:2001.08361
-2. Hoffmann et al. (2022). "Training Compute-Optimal Large Language Models" - arXiv:2203.15556
-3. Raffel (2016). "Learning-Based Methods for Comparing Sequences"
-4. Vaswani et al. (2017). "Attention Is All You Need"
-
-## License
-
-MIT License - See LICENSE file for details
-
-## Acknowledgments
-
-- **Dataset:** Lakh MIDI Dataset by Colin Raffel
-- **Reference Code:** nanoGPT by Andrej Karpathy
-- **ABC Notation:** ABC notation standard (abcnotation.com)
-
 ## Contact
-
 **Megha Anant Patil**  
 Email: mp7464@nyu.edu  
-GitHub: [YOUR_USERNAME]
 
----
-
-**Project Status:** ✅ Complete (December 2025)  
-**Report:** 12 pages + appendix with honest analysis of negative results  
-**Code:** Fully documented and reproducible
